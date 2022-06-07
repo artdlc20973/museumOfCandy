@@ -1,0 +1,57 @@
+body {
+  background: #f5d9d5;
+  font-family: 'Raleway',sans-serif;
+  box-sizing: border-box;
+}
+
+.blurb h2 {
+  color: #ea1c2c;
+  font-size: 2.5rem;
+}
+
+.blurb p {
+  color: #f498b8;
+  font-size: 1.125rem;
+  line-height: 2;
+}
+
+.content {
+  margin-bottom: 100px;
+}
+
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+  color: #ffffff;
+}
+
+#mainNavbar .nav-link:hover {
+  color: #ea1c2c;
+}
+
+#mainNavbar .navbar-brand {
+  color: #ea1c2c;
+  font-size: 1.6rem;
+}
+
+#headingGroup span {
+  color: #ea1c2c;
+}
+
+#headingGroup h1 {
+  font-weight: lighter;
+  font-size: 3rem;
+}
+
+.navbar.scrolled {
+  background: rgb(222, 192, 222);
+}
+
+@media (max-width: 1200px) {
+  #headingGroup h1 {
+    font-size: 2.4rem;
+  }
+}
